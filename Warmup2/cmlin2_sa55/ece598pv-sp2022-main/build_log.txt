@@ -1,0 +1,200 @@
+   Compiling libc v0.2.108
+   Compiling cfg-if v1.0.0
+   Compiling proc-macro2 v1.0.32
+   Compiling unicode-xid v0.2.0
+   Compiling futures-core v0.3.18
+   Compiling syn v1.0.82
+   Compiling memchr v2.4.1
+   Compiling futures-io v0.3.18
+   Compiling autocfg v0.1.6
+   Compiling pin-project-lite v0.2.7
+   Compiling event-listener v2.5.1
+   Compiling log v0.4.14
+   Compiling cache-padded v1.1.1
+   Compiling slab v0.4.2
+   Compiling parking v2.0.0
+   Compiling fastrand v1.5.0
+   Compiling lazy_static v1.4.0
+   Compiling serde v1.0.101
+   Compiling waker-fn v1.1.0
+   Compiling crossbeam-utils v0.8.5
+   Compiling once_cell v1.8.0
+   Compiling autocfg v1.0.1
+   Compiling futures-task v0.3.18
+   Compiling futures-channel v0.3.18
+   Compiling async-task v4.0.3
+   Compiling crossbeam-epoch v0.9.5
+   Compiling smallvec v0.6.10
+   Compiling atomic-waker v1.0.0
+   Compiling futures-util v0.3.18
+   Compiling futures-sink v0.3.18
+   Compiling matches v0.1.8
+   Compiling signal-hook v0.3.10
+   Compiling cc v1.0.72
+   Compiling byteorder v1.3.2
+   Compiling pin-utils v0.1.0
+   Compiling crossbeam-queue v0.3.2
+   Compiling bitflags v1.2.0
+   Compiling scopeguard v1.1.0
+   Compiling ryu v1.0.2
+   Compiling ppv-lite86 v0.2.15
+   Compiling ntest_proc_macro_helper v0.7.3
+   Compiling percent-encoding v2.1.0
+   Compiling unicode-width v0.1.6
+   Compiling termcolor v1.1.2
+   Compiling ansi_term v0.11.0
+   Compiling itoa v0.4.4
+   Compiling chunked_transfer v1.4.0
+   Compiling vec_map v0.8.1
+   Compiling untrusted v0.7.1
+   Compiling strsim v0.8.0
+   Compiling ascii v1.0.0
+   Compiling hex v0.4.0
+   Compiling data-encoding v2.3.2
+   Compiling hex-literal v0.3.4
+   Compiling concurrent-queue v1.2.2
+   Compiling async-lock v2.4.0
+   Compiling simple-mutex v1.1.5
+   Compiling num-traits v0.2.8
+   Compiling num-integer v0.1.41
+   Compiling bincode v1.2.0
+   Compiling thread_local v1.0.1
+   Compiling unicode-bidi v0.3.4
+   Compiling unicode-normalization v0.1.8
+   Compiling memoffset v0.6.4
+   Compiling async-dup v1.2.2
+   Compiling ring v0.16.20
+   Compiling async-channel v1.6.1
+   Compiling futures-lite v1.12.0
+   Compiling idna v0.2.0
+   Compiling polling v2.2.0
+   Compiling socket2 v0.4.2
+   Compiling time v0.1.44
+   Compiling getrandom v0.2.3
+   Compiling signal-hook-registry v1.4.0
+   Compiling term_size v0.3.1
+   Compiling atty v0.2.13
+   Compiling crossbeam-channel v0.5.1
+   Compiling quote v1.0.2
+   Compiling rand_core v0.6.3
+   Compiling url v2.1.0
+   Compiling textwrap v0.11.0
+   Compiling blocking v1.1.0
+   Compiling async-io v1.6.0
+   Compiling async-executor v1.4.1
+   Compiling rand_chacha v0.3.1
+   Compiling clap v2.33.0
+   Compiling async-fs v1.5.0
+   Compiling async-process v1.3.0
+   Compiling async-net v1.6.1
+   Compiling crossbeam-deque v0.8.1
+   Compiling rand v0.8.4
+   Compiling chrono v0.4.19
+   Compiling crossbeam v0.8.1
+   Compiling smol v1.2.5
+   Compiling tiny_http v0.9.0
+   Compiling stderrlog v0.5.1
+   Compiling serde_derive v1.0.101
+   Compiling futures-macro v0.3.18
+   Compiling ntest_test_cases v0.7.3
+   Compiling futures-executor v0.3.18
+   Compiling futures v0.3.18
+   Compiling toml v0.5.8
+   Compiling serde_json v1.0.44
+   Compiling proc-macro-crate v0.1.5
+   Compiling ntest_timeout v0.7.3
+   Compiling ntest v0.7.3
+   Compiling bitcoin v0.1.0 (/Users/jimmylin/group_project_ece598/ece598pv-sp2022/Warmup2/cmlin2_sa55/ece598pv-sp2022-main)
+warning: unused import: `Digest`
+ --> src/types/address.rs:2:29
+  |
+2 | use ring::digest::{Context, Digest, SHA256};
+  |                             ^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: unused import: `bincode::deserialize`
+ --> src/types/address.rs:3:5
+  |
+3 | use bincode::deserialize;
+  |     ^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `data_encoding::HEXLOWER`
+ --> src/types/address.rs:4:5
+  |
+4 | use data_encoding::HEXLOWER;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `EdDSAParameters`
+ --> src/types/transaction.rs:2:88
+  |
+2 | use ring::signature::{self, Ed25519KeyPair, Signature, KeyPair, VerificationAlgorithm, EdDSAParameters};
+  |                                                                                        ^^^^^^^^^^^^^^^
+
+warning: unused imports: `Sender`, `TryRecvError`, `unbounded`
+ --> src/miner/worker.rs:1:26
+  |
+1 | use crossbeam::channel::{unbounded, Receiver, Sender, TryRecvError};
+  |                          ^^^^^^^^^            ^^^^^^  ^^^^^^^^^^^^
+
+warning: unused import: `debug`
+ --> src/miner/worker.rs:2:11
+  |
+2 | use log::{debug, info};
+  |           ^^^^^
+
+warning: unused import: `KeyPair`
+ --> src/types/transaction.rs:2:56
+  |
+2 | use ring::signature::{self, Ed25519KeyPair, Signature, KeyPair, VerificationAlgorithm, EdDSAParameters};
+  |                                                        ^^^^^^^
+
+warning: unused import: `VerificationAlgorithm`
+ --> src/types/transaction.rs:2:65
+  |
+2 | use ring::signature::{self, Ed25519KeyPair, Signature, KeyPair, VerificationAlgorithm, EdDSAParameters};
+  |                                                                 ^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused variable: `block`
+  --> src/blockchain/mod.rs:14:30
+   |
+14 |     pub fn insert(&mut self, block: &Block) {
+   |                              ^^^^^ help: if this is intentional, prefix it with an underscore: `_block`
+   |
+   = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `parent`
+  --> src/types/block.rs:25:30
+   |
+25 | pub fn generate_random_block(parent: &H256) -> Block {
+   |                              ^^^^^^ help: if this is intentional, prefix it with an underscore: `_parent`
+
+warning: unused variable: `leaf_size`
+   --> src/types/merkle.rs:108:72
+    |
+108 | pub fn verify(root: &H256, datum: &H256, proof: &[H256], index: usize, leaf_size: usize) -> bool {
+    |                                                                        ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_leaf_size`
+
+warning: field is never read: `server`
+ --> src/miner/worker.rs:9:5
+  |
+9 |     server: ServerHandle,
+  |     ^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(dead_code)]` on by default
+
+warning: field is never read: `finished_block_chan`
+  --> src/miner/mod.rs:28:5
+   |
+28 |     finished_block_chan: Sender<Block>,
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: field is never read: `server`
+  --> src/network/worker.rs:18:5
+   |
+18 |     server: ServerHandle,
+   |     ^^^^^^^^^^^^^^^^^^^^
+
+warning: `bitcoin` (bin "bitcoin" test) generated 14 warnings
+    Finished test [unoptimized + debuginfo] target(s) in 16.46s
+     Running unittests (target/debug/deps/bitcoin-e48d1ebb45b40e00)
