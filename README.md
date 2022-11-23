@@ -3,10 +3,6 @@ a simplified BTC client with full node functionality.
 ## BLOCKCHAIN struct
 
 - functions related to the longest chain rule
-  - new(): create a new blockchain that only contains the genesis block (hard coded)
-  - insert(): insert a block into the blockchain
-  - tip(): return the last block hash in the longest chain 
-  - all_blocks_in_longest_chain(): return all blocks' hashes (genesis -> tip)
   - `new()`: create a new blockchain that only contains the genesis block (hard coded)
   - `insert()`: insert a block into the blockchain
   - `tip()`: return the last block hash in the longest chain 
